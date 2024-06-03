@@ -10,13 +10,13 @@ const Navbar = () => {
       <nav className="navbar">
         <h1>Movie Maniac</h1>
         <div className="navbar-links">
-          <a href="">
+          <a href="#upcoming">
             Latest <img src={Party} alt="party-png" className="navbar-emojis" />
           </a>
-          <a href="">
+          <a href="#popular">
             Popular <img src={Fire} alt="fire-png" className="navbar-emojis" />
           </a>
-          <a href="">
+          <a href="#top_rated">
             Top Rated{" "}
             <img src={Star} alt="star-png" className="navbar-emojis" />
           </a>
